@@ -1,0 +1,133 @@
+a.nav-link:link {
+	text-decoration: none;
+	font-weight: lighter;
+	font-size: 14px;
+}
+
+#footer {
+	background-color: #1e0a3c; 
+}
+
+p.text-primary {
+	color: #D1410C;
+}
+
+ul.list-unstyled {
+	margin-top: 15px;
+	font-size: 10px;
+}
+
+ul.list-unstyled a {
+	color: #d9d9d9;
+}
+
+button.btn-primary {
+	background-color: #D1410C;
+}
+
+button.btn-primary.btn-lg {
+	border-radius: 20px;
+}
+
+button.btn-success {
+	background-color: #0d8547;
+}
+
+button.btn-info {
+	background-color: #1877f2;
+}
+
+button.btn-warning {
+	background-color: #fff58c;
+	color: #3d64ff;
+	text-decoration: underline;
+}
+
+button.btn-link {
+	color: #3d64ff;
+	text-decoration: underline;
+}
+
+button.btn-outline-secondary {
+	border: 1px solid #a9a8b3;
+	color: #39364f;
+}
+
+button.btn-outline-info {
+	border: 1px solid #1877f2;
+	color: #1877f2;
+}
+
+.card {
+	margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+}
+
+p.text-secondary {
+	margin-top: 20px;
+	font-size: 11px;
+	margin-bottom: 30px;
+}
+
+a:link {
+	text-decoration: underline;
+	color: #0000FF;
+}
+
+a:visited {
+	text-decoration: underline;
+	color: #0000FF;
+}
+
+.banner {
+	height: 50vh;
+	color: white;
+	background: linear-gradient(135deg,
+						rgba(0, 0, 0, 0.8) 0%,
+						rgba(0, 0, 0, 0.3) 50%),
+			url('https://picsum.photos/1000/500');
+	background-size: cover;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+.banner h1 {
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.banner h2 {
+	color: #D1410C;
+	opacity: 0.8;
+	margin-bottom: 10px;
+}  
+.banner p {
+	font-size: 20px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 20px;
+}
+
+.small-banner {
+	height: 20vh;
+	color: white;
+	background: linear-gradient(135deg,
+						rgba(0, 0, 0, 0.8) 0%,
+						rgba(0, 0, 0, 0.3) 50%),
+			url('https://picsum.photos/1000/500');
+	background-size: cover;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+
+textarea.form-control {
+	margin-bottom: 10px;
+}
+
+.bs-component {
+	margin-top: 50px;
+}
